@@ -5,7 +5,6 @@ import { Component, ViewChild, type ElementRef } from '@angular/core';
     standalone: true,
     imports: [],
     templateUrl: './simpleform.component.html',
-    styleUrl: './simpleform.component.css',
 })
 export class SimpleformComponent {
     @ViewChild('firstName') firstName!: ElementRef;

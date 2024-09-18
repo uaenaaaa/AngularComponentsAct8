@@ -5,6 +5,7 @@ import { ShowhellobuttonComponent } from '@app/showhellobutton/showhellobutton.c
 import { DisplaynameComponent } from '@app/displayname/displayname.component';
 import { CounterComponent } from '@app/counter/counter.component';
 import { SimpleformComponent } from '@app/simpleform/simpleform.component';
+import { UserageComponent } from './userage/userage.component';
 
 export const routes: Routes = [
     {
@@ -31,6 +32,11 @@ export const routes: Routes = [
         title: 'Component #5: Simple Form',
         component: SimpleformComponent,
         path: 'simple-form',
+    },
+    {
+        title: 'Component #6: User Age',
+        component: UserageComponent,
+        path: 'user-age',
     },
 ];
 
