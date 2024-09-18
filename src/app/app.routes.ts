@@ -1,8 +1,9 @@
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { DisplayhelloworldComponent } from './displayhelloworld/displayhelloworld.component';
-import { ShowhellobuttonComponent } from './showhellobutton/showhellobutton.component';
-import { DisplaynameComponent } from './displayname/displayname.component';
+import { DisplayhelloworldComponent } from '@app/displayhelloworld/displayhelloworld.component';
+import { ShowhellobuttonComponent } from '@app/showhellobutton/showhellobutton.component';
+import { DisplaynameComponent } from '@app/displayname/displayname.component';
+import { CounterComponent } from '@app/counter/counter.component';
 
 export const routes: Routes = [
     {
@@ -19,6 +20,11 @@ export const routes: Routes = [
         title: 'Component #3: Display User\'s name',
         component: DisplaynameComponent,
         path: 'display-name'
+    },
+    {
+        title: 'Component #4: Counter',
+        component: CounterComponent,
+        path: 'counter'
     }
 ];
 
