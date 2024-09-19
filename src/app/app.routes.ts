@@ -22,7 +22,8 @@ import { CharactercounterComponent } from '@app/charactercounter/charactercounte
 import { PalindromecheckerComponent } from '@app/palindromechecker/palindromechecker.component';
 import { TemperatureconverterComponent } from '@app/temperatureconverter/temperatureconverter.component';
 import { ShoppinglistComponent } from '@app/shoppinglist/shoppinglist.component';
-import { FactorialcalculatorComponent } from './factorialcalculator/factorialcalculator.component';
+import { FactorialcalculatorComponent } from '@app/factorialcalculator/factorialcalculator.component';
+import { TodomanagerComponent } from '@app/todomanager/todomanager.component';
 
 export const routes: Routes = [
     {
@@ -139,6 +140,11 @@ export const routes: Routes = [
         title: 'Component #23: Factorial',
         component: FactorialcalculatorComponent,
         path: 'factorial',
+    },
+    {
+        title: 'Component #24: Todo Manager',
+        component: TodomanagerComponent,
+        path: 'todo',
     },
 ];
 
