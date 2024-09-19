@@ -13,6 +13,7 @@ import { CurrencyconverterComponent } from '@app/currencyconverter/currencyconve
 import { EvenoddcheckerComponent } from '@app/evenoddchecker/evenoddchecker.component';
 import { WordreverserComponent } from '@app/wordreverser/wordreverser.component';
 import { ShowdateComponent } from '@app/showdate/showdate.component';
+import { ShowusernameComponent } from './showusername/showusername.component';
 
 export const routes: Routes = [
     {
@@ -78,8 +79,13 @@ export const routes: Routes = [
     {
         title: 'Component #13: Show Date',
         component: ShowdateComponent,
-        path: 'date-now'
-    }
+        path: 'date-now',
+    },
+    {
+        title: 'Component #14: Show Username',
+        component: ShowusernameComponent,
+        path: 'show-username',
+    },
 ];
 
 @NgModule({
