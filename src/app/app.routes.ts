@@ -10,6 +10,7 @@ import { UsergreetingComponent } from '@app/usergreeting/usergreeting.component'
 import { CalculatorComponent } from './calculator/calculator.component';
 import { TextlengthComponent } from './textlength/textlength.component';
 import { CurrencyconverterComponent } from './currencyconverter/currencyconverter.component';
+import { EvenoddcheckerComponent } from './evenoddchecker/evenoddchecker.component';
 
 export const routes: Routes = [
     {
@@ -62,6 +63,11 @@ export const routes: Routes = [
         component:CurrencyconverterComponent,
         path: 'currency-converter',
     },
+    {
+        title: 'Component #11: Even or Odd',
+        component: EvenoddcheckerComponent,
+        path: 'evenodd'
+    }
 ];
 
 @NgModule({
