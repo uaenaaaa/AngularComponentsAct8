@@ -8,6 +8,7 @@ import { SimpleformComponent } from '@app/simpleform/simpleform.component';
 import { UserageComponent } from '@app/userage/userage.component';
 import { UsergreetingComponent } from '@app/usergreeting/usergreeting.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { TextlengthComponent } from './textlength/textlength.component';
 
 export const routes: Routes = [
     {
@@ -50,6 +51,11 @@ export const routes: Routes = [
         component: CalculatorComponent,
         path: 'calculator',
     },
+    {
+        title: 'Component #9: Text Length',
+        component: TextlengthComponent,
+        path: 'textlength'
+    }
 ];
 
 @NgModule({
