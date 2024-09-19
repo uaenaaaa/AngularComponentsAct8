@@ -7,10 +7,12 @@ import { CounterComponent } from '@app/counter/counter.component';
 import { SimpleformComponent } from '@app/simpleform/simpleform.component';
 import { UserageComponent } from '@app/userage/userage.component';
 import { UsergreetingComponent } from '@app/usergreeting/usergreeting.component';
-import { CalculatorComponent } from './calculator/calculator.component';
-import { TextlengthComponent } from './textlength/textlength.component';
-import { CurrencyconverterComponent } from './currencyconverter/currencyconverter.component';
-import { EvenoddcheckerComponent } from './evenoddchecker/evenoddchecker.component';
+import { CalculatorComponent } from '@app/calculator/calculator.component';
+import { TextlengthComponent } from '@app/textlength/textlength.component';
+import { CurrencyconverterComponent } from '@app/currencyconverter/currencyconverter.component';
+import { EvenoddcheckerComponent } from '@app/evenoddchecker/evenoddchecker.component';
+import { WordreverserComponent } from '@app/wordreverser/wordreverser.component';
+import { ShowdateComponent } from '@app/showdate/showdate.component';
 
 export const routes: Routes = [
     {
@@ -60,13 +62,23 @@ export const routes: Routes = [
     },
     {
         title: 'Component #10: Currency Converter',
-        component:CurrencyconverterComponent,
+        component: CurrencyconverterComponent,
         path: 'currency-converter',
     },
     {
         title: 'Component #11: Even or Odd',
         component: EvenoddcheckerComponent,
-        path: 'evenodd'
+        path: 'evenodd',
+    },
+    {
+        title: 'Component #12: Reverse Word',
+        component: WordreverserComponent,
+        path: 'word-reverser',
+    },
+    {
+        title: 'Component #13: Show Date',
+        component: ShowdateComponent,
+        path: 'date-now'
     }
 ];
 
