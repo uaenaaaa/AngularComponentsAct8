@@ -9,6 +9,7 @@ import { UserageComponent } from '@app/userage/userage.component';
 import { UsergreetingComponent } from '@app/usergreeting/usergreeting.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { TextlengthComponent } from './textlength/textlength.component';
+import { CurrencyconverterComponent } from './currencyconverter/currencyconverter.component';
 
 export const routes: Routes = [
     {
@@ -54,8 +55,13 @@ export const routes: Routes = [
     {
         title: 'Component #9: Text Length',
         component: TextlengthComponent,
-        path: 'textlength'
-    }
+        path: 'textlength',
+    },
+    {
+        title: 'Component #10: Currency Converter',
+        component:CurrencyconverterComponent,
+        path: 'currency-converter',
+    },
 ];
 
 @NgModule({

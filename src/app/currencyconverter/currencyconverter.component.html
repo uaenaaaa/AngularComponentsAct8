@@ -1,0 +1,12 @@
+<input type="number" #php placeholder="PHP" />
+
+<select #currencySelector>
+    <option value="usd">United State Dollars</option>
+    <option value="krw">Korean Won</option>
+    <option value="gbp">British Pound</option>
+    <option value="eur">Euro</option>
+    <option value="cad">Canadian Dollar</option>
+</select>
+
+<button (click)="convert()">Convert</button>
+<h1>{{value}}</h1>
