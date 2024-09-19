@@ -1,0 +1,8 @@
+<input required #item type="text" placeholder="Add a shopping item">
+<button (click)="addItem()">Add</button>
+
+<ul>
+    @for (item of shoppingList; track $index) {
+        <li>{{item}} <button (click)="removeItem(item)">Delete this item</button></li>
+    }
+</ul>
