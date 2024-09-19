@@ -13,9 +13,10 @@ import { CurrencyconverterComponent } from '@app/currencyconverter/currencyconve
 import { EvenoddcheckerComponent } from '@app/evenoddchecker/evenoddchecker.component';
 import { WordreverserComponent } from '@app/wordreverser/wordreverser.component';
 import { ShowdateComponent } from '@app/showdate/showdate.component';
-import { ShowusernameComponent } from './showusername/showusername.component';
-import { MultiplicationtableComponent } from './multiplicationtable/multiplicationtable.component';
-import { SimpleloginComponent } from './simplelogin/simplelogin.component';
+import { ShowusernameComponent } from '@app/showusername/showusername.component';
+import { MultiplicationtableComponent } from '@app/multiplicationtable/multiplicationtable.component';
+import { SimpleloginComponent } from '@app/simplelogin/simplelogin.component';
+import { FahrenheittocelsiusComponent } from '@app/fahrenheittocelsius/fahrenheittocelsius.component';
 
 export const routes: Routes = [
     {
@@ -97,6 +98,11 @@ export const routes: Routes = [
         title: 'Component #16: Simple Login',
         component: SimpleloginComponent,
         path: 'simple-login',
+    },
+    {
+        title: 'Component #17: Fahrenheit to Celcius',
+        component: FahrenheittocelsiusComponent,
+        path: 'fahrenheittocelsius',
     },
 ];
 
