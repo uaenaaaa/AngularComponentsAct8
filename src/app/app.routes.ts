@@ -20,6 +20,7 @@ import { FahrenheittocelsiusComponent } from '@app/fahrenheittocelsius/fahrenhei
 import { BookmarklistComponent } from '@app/bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from '@app/charactercounter/charactercounter.component';
 import { PalindromecheckerComponent } from './palindromechecker/palindromechecker.component';
+import { TemperatureconverterComponent } from './temperatureconverter/temperatureconverter.component';
 
 export const routes: Routes = [
     {
@@ -121,6 +122,11 @@ export const routes: Routes = [
         title: 'Component #20: Palindrome',
         component: PalindromecheckerComponent,
         path: 'palindrome',
+    },
+    {
+        title: 'Component #21: Temperature Converter',
+        component: TemperatureconverterComponent,
+        path: 'temp-converter',
     },
 ];
 
