@@ -38,6 +38,7 @@ import { FibonaccigeneratorComponent } from './fibonaccigenerator/fibonaccigener
 import { OddsumcalculatorComponent } from './oddsumcalculator/oddsumcalculator.component';
 import { CurrencyformatterComponent } from './currencyformatter/currencyformatter.component';
 import { RandomquotedisplayComponent } from './randomquotedisplay/randomquotedisplay.component';
+import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreeting.component';
 
 export const routes: Routes = [
 	{
@@ -229,6 +230,11 @@ export const routes: Routes = [
 		title: 'Component #38: Random Qoute',
 		component: RandomquotedisplayComponent,
 		path: 'rand-qoute',
+	},
+	{
+		title: 'Component #39: Upper Case Name',
+		component: UppercasegreetingComponent,
+		path: 'uppercase-name',
 	},
 ];
 
