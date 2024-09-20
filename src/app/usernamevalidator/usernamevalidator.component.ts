@@ -3,7 +3,6 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 @Component({
 	selector: 'app-usernamevalidator',
 	templateUrl: './usernamevalidator.component.html',
-	styleUrls: ['./usernamevalidator.component.css'],
 })
 export class UsernamevalidatorComponent {
 	@ViewChild('username') username!: ElementRef;
