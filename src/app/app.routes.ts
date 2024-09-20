@@ -30,8 +30,9 @@ import { RandomnumbergeneratorComponent } from '@app/randomnumbergenerator/rando
 import { MultiplicationcheckerComponent } from '@app/multiplicationchecker/multiplicationchecker.component';
 import { UppercaseconverterComponent } from '@app/uppercaseconverter/uppercaseconverter.component';
 import { WordshufflerComponent } from '@app/wordshuffler/wordshuffler.component';
-import { BmisolverComponent } from './bmisolver/bmisolver.component';
-import { UsernamevalidatorComponent } from './usernamevalidator/usernamevalidator.component';
+import { BmisolverComponent } from '@app/bmisolver/bmisolver.component';
+import { UsernamevalidatorComponent } from '@app/usernamevalidator/usernamevalidator.component';
+import { InterestcalculatorComponent } from '@app/interestcalculator/interestcalculator.component';
 
 export const routes: Routes = [
 	{
@@ -193,6 +194,11 @@ export const routes: Routes = [
 		title: 'Component #32: Username Validator',
 		component: UsernamevalidatorComponent,
 		path: 'username-validator',
+	},
+	{
+		title: 'Component #33: Interest Calculator',
+		component: InterestcalculatorComponent,
+		path: 'interest-calculator',
 	},
 ];
 
