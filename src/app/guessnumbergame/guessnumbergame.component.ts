@@ -13,7 +13,6 @@ export class GuessnumbergameComponent {
     result = '---';
     makeAGuess(): void {
         const guessNumber = Number(this.guess.nativeElement.value);
-        console.log(this.numberToBeGuess);
         if (guessNumber === this.numberToBeGuess) {
             this.result = `The guess: ${guessNumber} is correct!`;
         }

@@ -25,6 +25,7 @@ import { ShoppinglistComponent } from '@app/shoppinglist/shoppinglist.component'
 import { FactorialcalculatorComponent } from '@app/factorialcalculator/factorialcalculator.component';
 import { TodomanagerComponent } from '@app/todomanager/todomanager.component';
 import { GuessnumbergameComponent } from '@app/guessnumbergame/guessnumbergame.component';
+import { WordcounterComponent } from './wordcounter/wordcounter.component';
 
 export const routes: Routes = [
     {
@@ -151,6 +152,11 @@ export const routes: Routes = [
         title: 'Component #25: Guess Number Game',
         component: GuessnumbergameComponent,
         path: 'guess-number-game',
+    },
+    {
+        title: 'Component #26: Words counter',
+        component: WordcounterComponent,
+        path: 'words-counter',
     },
 ];
 
