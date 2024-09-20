@@ -1,0 +1,10 @@
+<input
+	type="number"
+	#currency />
+<select #conversionCurr>
+	<option value="usd">USD</option>
+	<option value="php">PHP</option>
+	<option value="euro">EURO</option>
+</select>
+<button (click)="convert()">Convert</button>
+<h1>{{ result }}</h1>

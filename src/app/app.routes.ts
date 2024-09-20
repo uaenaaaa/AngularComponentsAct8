@@ -36,6 +36,7 @@ import { InterestcalculatorComponent } from '@app/interestcalculator/interestcal
 import { CompoundinterestcalculatorComponent } from '@app/compoundinterestcalculator/compoundinterestcalculator.component';
 import { FibonaccigeneratorComponent } from './fibonaccigenerator/fibonaccigenerator.component';
 import { OddsumcalculatorComponent } from './oddsumcalculator/oddsumcalculator.component';
+import { CurrencyformatterComponent } from './currencyformatter/currencyformatter.component';
 
 export const routes: Routes = [
 	{
@@ -217,6 +218,11 @@ export const routes: Routes = [
 		title: 'Component #36: Odd Sum Calculator',
 		component: OddsumcalculatorComponent,
 		path: 'odd-sum',
+	},
+	{
+		title: 'Component #37: Currency Formatter',
+		component: CurrencyformatterComponent,
+		path: 'currency-formatter',
 	},
 ];
 
