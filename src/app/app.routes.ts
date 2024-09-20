@@ -27,6 +27,7 @@ import { TodomanagerComponent } from '@app/todomanager/todomanager.component';
 import { GuessnumbergameComponent } from '@app/guessnumbergame/guessnumbergame.component';
 import { WordcounterComponent } from '@app/wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from '@app/randomnumbergenerator/randomnumbergenerator.component';
+import { MultiplicationcheckerComponent } from '@app/multiplicationchecker/multiplicationchecker.component';
 
 export const routes: Routes = [
     {
@@ -163,6 +164,16 @@ export const routes: Routes = [
         title: 'Component #27: Random Number Generator',
         component: RandomnumbergeneratorComponent,
         path: 'rand-num',
+    },
+    {
+        title: 'Component #28: Multiplication Checker',
+        component: RandomnumbergeneratorComponent,
+        path: 'rand-num',
+    },
+    {
+        title: 'Component #29: Multiplication Checker',
+        component: MultiplicationcheckerComponent,
+        path: 'multiplicaiton-check',
     },
 ];
 
