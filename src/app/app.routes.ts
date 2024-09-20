@@ -28,7 +28,8 @@ import { GuessnumbergameComponent } from '@app/guessnumbergame/guessnumbergame.c
 import { WordcounterComponent } from '@app/wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from '@app/randomnumbergenerator/randomnumbergenerator.component';
 import { MultiplicationcheckerComponent } from '@app/multiplicationchecker/multiplicationchecker.component';
-import { UppercaseconverterComponent } from './uppercaseconverter/uppercaseconverter.component';
+import { UppercaseconverterComponent } from '@app/uppercaseconverter/uppercaseconverter.component';
+import { WordshufflerComponent } from '@app/wordshuffler/wordshuffler.component';
 
 export const routes: Routes = [
     {
@@ -175,6 +176,11 @@ export const routes: Routes = [
         title: 'Component #29: Upper Case Converter',
         component: UppercaseconverterComponent,
         path: 'uppercase-converter',
+    },
+    {
+        title: 'Component #30: Word Shuffler',
+        component: WordshufflerComponent,
+        path: 'shuffler',
     },
 ];
 
