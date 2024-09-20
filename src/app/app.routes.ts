@@ -25,7 +25,8 @@ import { ShoppinglistComponent } from '@app/shoppinglist/shoppinglist.component'
 import { FactorialcalculatorComponent } from '@app/factorialcalculator/factorialcalculator.component';
 import { TodomanagerComponent } from '@app/todomanager/todomanager.component';
 import { GuessnumbergameComponent } from '@app/guessnumbergame/guessnumbergame.component';
-import { WordcounterComponent } from './wordcounter/wordcounter.component';
+import { WordcounterComponent } from '@app/wordcounter/wordcounter.component';
+import { RandomnumbergeneratorComponent } from '@app/randomnumbergenerator/randomnumbergenerator.component';
 
 export const routes: Routes = [
     {
@@ -157,6 +158,11 @@ export const routes: Routes = [
         title: 'Component #26: Words counter',
         component: WordcounterComponent,
         path: 'words-counter',
+    },
+    {
+        title: 'Component #27: Random Number Generator',
+        component: RandomnumbergeneratorComponent,
+        path: 'rand-num',
     },
 ];
 
