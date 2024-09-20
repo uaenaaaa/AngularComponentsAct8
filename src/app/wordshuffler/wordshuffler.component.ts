@@ -5,7 +5,6 @@ import { Component, ViewChild, type ElementRef } from '@angular/core';
     standalone: true,
     imports: [],
     templateUrl: './wordshuffler.component.html',
-    styleUrl: './wordshuffler.component.css',
 })
 export class WordshufflerComponent {
     @ViewChild('word') word!: ElementRef;
