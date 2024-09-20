@@ -34,6 +34,7 @@ import { BmisolverComponent } from '@app/bmisolver/bmisolver.component';
 import { UsernamevalidatorComponent } from '@app/usernamevalidator/usernamevalidator.component';
 import { InterestcalculatorComponent } from '@app/interestcalculator/interestcalculator.component';
 import { CompoundinterestcalculatorComponent } from '@app/compoundinterestcalculator/compoundinterestcalculator.component';
+import { FibonaccigeneratorComponent } from './fibonaccigenerator/fibonaccigenerator.component';
 
 export const routes: Routes = [
 	{
@@ -205,6 +206,11 @@ export const routes: Routes = [
 		title: 'Component #34: Compound Interest Calculator',
 		component: CompoundinterestcalculatorComponent,
 		path: 'compound-interest-calculator',
+	},
+	{
+		title: 'Component #35: Fibonacci Sequence',
+		component: FibonaccigeneratorComponent,
+		path: 'fib',
 	},
 ];
 
