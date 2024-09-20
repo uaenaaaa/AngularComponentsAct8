@@ -34,11 +34,12 @@ import { BmisolverComponent } from '@app/bmisolver/bmisolver.component';
 import { UsernamevalidatorComponent } from '@app/usernamevalidator/usernamevalidator.component';
 import { InterestcalculatorComponent } from '@app/interestcalculator/interestcalculator.component';
 import { CompoundinterestcalculatorComponent } from '@app/compoundinterestcalculator/compoundinterestcalculator.component';
-import { FibonaccigeneratorComponent } from './fibonaccigenerator/fibonaccigenerator.component';
-import { OddsumcalculatorComponent } from './oddsumcalculator/oddsumcalculator.component';
-import { CurrencyformatterComponent } from './currencyformatter/currencyformatter.component';
-import { RandomquotedisplayComponent } from './randomquotedisplay/randomquotedisplay.component';
-import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreeting.component';
+import { FibonaccigeneratorComponent } from '@app/fibonaccigenerator/fibonaccigenerator.component';
+import { OddsumcalculatorComponent } from '@app/oddsumcalculator/oddsumcalculator.component';
+import { CurrencyformatterComponent } from '@app/currencyformatter/currencyformatter.component';
+import { RandomquotedisplayComponent } from '@app/randomquotedisplay/randomquotedisplay.component';
+import { UppercasegreetingComponent } from '@app/uppercasegreeting/uppercasegreeting.component';
+import { DivisiblecheckerComponent } from '@app/divisiblechecker/divisiblechecker.component';
 
 export const routes: Routes = [
 	{
@@ -235,6 +236,11 @@ export const routes: Routes = [
 		title: 'Component #39: Upper Case Name',
 		component: UppercasegreetingComponent,
 		path: 'uppercase-name',
+	},
+	{
+		title: 'Component #40: Divisible By',
+		component: DivisiblecheckerComponent,
+		path: 'divisible-by',
 	},
 ];
 
