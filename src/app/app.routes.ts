@@ -48,6 +48,7 @@ import { DiscountcalculatorComponent } from './discountcalculator/discountcalcul
 import { NameinitialsComponent } from './nameinitials/nameinitials.component';
 import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
 import { SpeedconverterComponent } from './speedconverter/speedconverter.component';
+import { SpeedconvertermphComponent } from './speedconvertermph/speedconvertermph.component';
 
 export const routes: Routes = [
 	{
@@ -289,6 +290,11 @@ export const routes: Routes = [
 		title: 'Component #48: MPH to KPH',
 		component: SpeedconverterComponent,
 		path: 'mph-to-kph',
+	},
+	{
+		title: 'Component #49: KPH to MPH',
+		component: SpeedconvertermphComponent,
+		path: 'kph-to-mph',
 	},
 ];
 
