@@ -44,6 +44,7 @@ import { CustomgreetingComponent } from '@app/customgreeting/customgreeting.comp
 import { UrlsluggeneratorComponent } from './urlsluggenerator/urlsluggenerator.component';
 import { StringvowelcounterComponent } from './stringvowelcounter/stringvowelcounter.component';
 import { AgegroupclassifierComponent } from './agegroupclassifier/agegroupclassifier.component';
+import { DiscountcalculatorComponent } from './discountcalculator/discountcalculator.component';
 
 export const routes: Routes = [
 	{
@@ -265,6 +266,11 @@ export const routes: Routes = [
 		title: 'Component #44: Classify Age',
 		component: AgegroupclassifierComponent,
 		path: 'classify-age',
+	},
+	{
+		title: 'Component #45: Calculate Discount',
+		component: DiscountcalculatorComponent,
+		path: 'calculate-discount',
 	},
 ];
 
