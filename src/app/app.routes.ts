@@ -42,6 +42,7 @@ import { UppercasegreetingComponent } from '@app/uppercasegreeting/uppercasegree
 import { DivisiblecheckerComponent } from '@app/divisiblechecker/divisiblechecker.component';
 import { CustomgreetingComponent } from '@app/customgreeting/customgreeting.component';
 import { UrlsluggeneratorComponent } from './urlsluggenerator/urlsluggenerator.component';
+import { StringvowelcounterComponent } from './stringvowelcounter/stringvowelcounter.component';
 
 export const routes: Routes = [
 	{
@@ -253,6 +254,11 @@ export const routes: Routes = [
 		title: 'Component #42: URL Slug Generator',
 		component: UrlsluggeneratorComponent,
 		path: 'slug',
+	},
+	{
+		title: 'Component #43: Vowels Counter',
+		component: StringvowelcounterComponent,
+		path: 'count-vowels',
 	},
 ];
 
