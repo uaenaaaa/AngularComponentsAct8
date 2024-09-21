@@ -46,6 +46,7 @@ import { StringvowelcounterComponent } from './stringvowelcounter/stringvowelcou
 import { AgegroupclassifierComponent } from './agegroupclassifier/agegroupclassifier.component';
 import { DiscountcalculatorComponent } from './discountcalculator/discountcalculator.component';
 import { NameinitialsComponent } from './nameinitials/nameinitials.component';
+import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
 
 export const routes: Routes = [
 	{
@@ -277,6 +278,11 @@ export const routes: Routes = [
 		title: 'Component #46: Name Initials',
 		component: NameinitialsComponent,
 		path: 'get-initials',
+	},
+	{
+		title: 'Component #47: Month Names',
+		component: MonthnamefinderComponent,
+		path: 'month-name',
 	},
 ];
 
