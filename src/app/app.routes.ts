@@ -40,6 +40,7 @@ import { CurrencyformatterComponent } from '@app/currencyformatter/currencyforma
 import { RandomquotedisplayComponent } from '@app/randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from '@app/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from '@app/divisiblechecker/divisiblechecker.component';
+import { CustomgreetingComponent } from '@app/customgreeting/customgreeting.component';
 
 export const routes: Routes = [
 	{
@@ -241,6 +242,11 @@ export const routes: Routes = [
 		title: 'Component #40: Divisible By',
 		component: DivisiblecheckerComponent,
 		path: 'divisible-by',
+	},
+	{
+		title: 'Component #41: Custom Greeting',
+		component: CustomgreetingComponent,
+		path: 'cust-greet',
 	},
 ];
 
