@@ -45,6 +45,7 @@ import { UrlsluggeneratorComponent } from './urlsluggenerator/urlsluggenerator.c
 import { StringvowelcounterComponent } from './stringvowelcounter/stringvowelcounter.component';
 import { AgegroupclassifierComponent } from './agegroupclassifier/agegroupclassifier.component';
 import { DiscountcalculatorComponent } from './discountcalculator/discountcalculator.component';
+import { NameinitialsComponent } from './nameinitials/nameinitials.component';
 
 export const routes: Routes = [
 	{
@@ -271,6 +272,11 @@ export const routes: Routes = [
 		title: 'Component #45: Calculate Discount',
 		component: DiscountcalculatorComponent,
 		path: 'calculate-discount',
+	},
+	{
+		title: 'Component #46: Name Initials',
+		component: NameinitialsComponent,
+		path: 'get-initials',
 	},
 ];
 
