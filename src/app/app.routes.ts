@@ -41,6 +41,7 @@ import { RandomquotedisplayComponent } from '@app/randomquotedisplay/randomquote
 import { UppercasegreetingComponent } from '@app/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from '@app/divisiblechecker/divisiblechecker.component';
 import { CustomgreetingComponent } from '@app/customgreeting/customgreeting.component';
+import { UrlsluggeneratorComponent } from './urlsluggenerator/urlsluggenerator.component';
 
 export const routes: Routes = [
 	{
@@ -247,6 +248,11 @@ export const routes: Routes = [
 		title: 'Component #41: Custom Greeting',
 		component: CustomgreetingComponent,
 		path: 'cust-greet',
+	},
+	{
+		title: 'Component #42: URL Slug Generator',
+		component: UrlsluggeneratorComponent,
+		path: 'slug',
 	},
 ];
 
