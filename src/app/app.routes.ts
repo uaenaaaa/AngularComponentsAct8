@@ -43,6 +43,7 @@ import { DivisiblecheckerComponent } from '@app/divisiblechecker/divisiblechecke
 import { CustomgreetingComponent } from '@app/customgreeting/customgreeting.component';
 import { UrlsluggeneratorComponent } from './urlsluggenerator/urlsluggenerator.component';
 import { StringvowelcounterComponent } from './stringvowelcounter/stringvowelcounter.component';
+import { AgegroupclassifierComponent } from './agegroupclassifier/agegroupclassifier.component';
 
 export const routes: Routes = [
 	{
@@ -259,6 +260,11 @@ export const routes: Routes = [
 		title: 'Component #43: Vowels Counter',
 		component: StringvowelcounterComponent,
 		path: 'count-vowels',
+	},
+	{
+		title: 'Component #44: Classify Age',
+		component: AgegroupclassifierComponent,
+		path: 'classify-age',
 	},
 ];
 
