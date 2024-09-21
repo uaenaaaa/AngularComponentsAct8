@@ -47,6 +47,7 @@ import { AgegroupclassifierComponent } from './agegroupclassifier/agegroupclassi
 import { DiscountcalculatorComponent } from './discountcalculator/discountcalculator.component';
 import { NameinitialsComponent } from './nameinitials/nameinitials.component';
 import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
+import { SpeedconverterComponent } from './speedconverter/speedconverter.component';
 
 export const routes: Routes = [
 	{
@@ -283,6 +284,11 @@ export const routes: Routes = [
 		title: 'Component #47: Month Names',
 		component: MonthnamefinderComponent,
 		path: 'month-name',
+	},
+	{
+		title: 'Component #48: MPH to KPH',
+		component: SpeedconverterComponent,
+		path: 'mph-to-kph',
 	},
 ];
 
