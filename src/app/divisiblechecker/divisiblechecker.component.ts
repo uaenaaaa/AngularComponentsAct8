@@ -5,7 +5,6 @@ import { Component, ViewChild, type ElementRef } from '@angular/core';
 	standalone: true,
 	imports: [],
 	templateUrl: './divisiblechecker.component.html',
-	styleUrl: './divisiblechecker.component.css',
 })
 export class DivisiblecheckerComponent {
 	@ViewChild('numOne') numOne!: ElementRef;

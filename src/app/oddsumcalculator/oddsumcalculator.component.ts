@@ -5,7 +5,6 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 	standalone: true,
 	imports: [],
 	templateUrl: './oddsumcalculator.component.html',
-	styleUrls: ['./oddsumcalculator.component.css'],
 })
 export class OddsumcalculatorComponent {
 	@ViewChild('number') number!: ElementRef;

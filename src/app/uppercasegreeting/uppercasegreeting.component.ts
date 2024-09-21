@@ -5,7 +5,6 @@ import { Component, ViewChild, type ElementRef } from '@angular/core';
 	standalone: true,
 	imports: [],
 	templateUrl: './uppercasegreeting.component.html',
-	styleUrl: './uppercasegreeting.component.css',
 })
 export class UppercasegreetingComponent {
 	@ViewChild('userName') userName!: ElementRef;

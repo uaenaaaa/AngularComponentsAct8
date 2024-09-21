@@ -5,7 +5,6 @@ import { Component, ViewChild, type ElementRef } from '@angular/core';
 	standalone: true,
 	imports: [],
 	templateUrl: './stringvowelcounter.component.html',
-	styleUrl: './stringvowelcounter.component.css',
 })
 export class StringvowelcounterComponent {
 	vowels = ['a', 'e', 'i', 'o', 'u'];

@@ -41,14 +41,15 @@ import { RandomquotedisplayComponent } from '@app/randomquotedisplay/randomquote
 import { UppercasegreetingComponent } from '@app/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from '@app/divisiblechecker/divisiblechecker.component';
 import { CustomgreetingComponent } from '@app/customgreeting/customgreeting.component';
-import { UrlsluggeneratorComponent } from './urlsluggenerator/urlsluggenerator.component';
-import { StringvowelcounterComponent } from './stringvowelcounter/stringvowelcounter.component';
-import { AgegroupclassifierComponent } from './agegroupclassifier/agegroupclassifier.component';
-import { DiscountcalculatorComponent } from './discountcalculator/discountcalculator.component';
-import { NameinitialsComponent } from './nameinitials/nameinitials.component';
-import { MonthnamefinderComponent } from './monthnamefinder/monthnamefinder.component';
-import { SpeedconverterComponent } from './speedconverter/speedconverter.component';
-import { SpeedconvertermphComponent } from './speedconvertermph/speedconvertermph.component';
+import { UrlsluggeneratorComponent } from '@app/urlsluggenerator/urlsluggenerator.component';
+import { StringvowelcounterComponent } from '@app/stringvowelcounter/stringvowelcounter.component';
+import { AgegroupclassifierComponent } from '@app/agegroupclassifier/agegroupclassifier.component';
+import { DiscountcalculatorComponent } from '@app/discountcalculator/discountcalculator.component';
+import { NameinitialsComponent } from '@app/nameinitials/nameinitials.component';
+import { MonthnamefinderComponent } from '@app/monthnamefinder/monthnamefinder.component';
+import { SpeedconverterComponent } from '@app/speedconverter/speedconverter.component';
+import { SpeedconvertermphComponent } from '@app/speedconvertermph/speedconvertermph.component';
+import { UserregistrationformextendedComponent } from '@app/userregistrationformextended/userregistrationformextended.component';
 
 export const routes: Routes = [
 	{
@@ -295,6 +296,11 @@ export const routes: Routes = [
 		title: 'Component #49: KPH to MPH',
 		component: SpeedconvertermphComponent,
 		path: 'kph-to-mph',
+	},
+	{
+		title: 'Component #50: User Registration Extended',
+		component: UserregistrationformextendedComponent,
+		path: 'registration-extended',
 	},
 ];
 

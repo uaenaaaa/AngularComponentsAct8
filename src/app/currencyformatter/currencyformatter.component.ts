@@ -5,7 +5,6 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 	standalone: true,
 	imports: [],
 	templateUrl: './currencyformatter.component.html',
-	styleUrl: './currencyformatter.component.css',
 })
 export class CurrencyformatterComponent {
 	@ViewChild('currency') currency!: ElementRef;
